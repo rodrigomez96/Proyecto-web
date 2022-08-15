@@ -1,8 +1,8 @@
 /*MAPS*/
 $mapRedes: (
-    correo:#018abd,
-    insta:#004581 ,
-    cel:#97cbdc,
+    correo: #F9F3DF,
+    insta:#FDFCE5 ,
+    cel:#D7E9F7,
 );
 
 @each $red,
@@ -15,7 +15,7 @@ $color in $mapRedes {
 
 /* MAP - GET*/
 $estilo: (
-    color:#dde8f0,
+    color: #F9F3DF,
     tamFuente:20px
 );
 

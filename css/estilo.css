@@ -4,7 +4,7 @@
   padding: 0; }
 
 header {
-  background-color: rgba(255, 255, 255, 0.842);
+  background-color: #FDFCE5;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -39,7 +39,7 @@ header {
     font-family: 'Poppins', sans-serif; }
 
 body {
-  background-image: linear-gradient(white, rgba(250, 148, 137, 0.499)); }
+  background-color: #F9F3DF; }
 
 h2 {
   color: black;
@@ -224,17 +224,17 @@ footer {
 
 /*MAPS*/
 .correo {
-  background-color: #018abd; }
+  background-color: #F9F3DF; }
 
 .insta {
-  background-color: #004581; }
+  background-color: #FDFCE5; }
 
 .cel {
-  background-color: #97cbdc; }
+  background-color: #D7E9F7; }
 
 /* MAP - GET*/
 .pepeLePu {
-  background-color: #dde8f0;
+  background-color: #F9F3DF;
   font-size: 20px; }
 
 /*EXTEND*/
