@@ -22,43 +22,53 @@
 <body class="container-fluid" class="bodyGridPadre">
     <div class="grillaProductos">
         <header class="ancla">
-            <nav class="animate__animated animate__pulse  navbar navbar-expand-lg">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
-                    <h1> <a class="navbar-brand fw-bold" href="../index.html"> EN.DEHORS </a></h1>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="productos.html" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Productos
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="damas.html">Damas</a></li>
-                                    <li><a class="dropdown-item" href="caballeros.html">Caballeros</a></li>
-                                    <li><a class="dropdown-item" href="calzados.html">Calzados</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="ubicacion.html">Ubicacion</a>
-                            </li>
-                        </ul>
+                  <h1><a class="navbar-brand" href="../index.html">EN.DEHORS</a></h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                    aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">EN.DEHORS</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
                     </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contacto.html">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="damas.html">Damas</a></li>
+                            <li><a class="dropdown-item" href="./caballeros.html">Caballeros</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="calzados.html">Calzados/Accesorios</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-            </nav>
+              </nav>
         </header>
         <div class="conteinerBoton">
             <a href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD" target="_blank">
@@ -135,10 +145,17 @@
                         class="btn btn-primary">Consultanos</a>
                 </div>
             </div>
-
-
-            <footer class="text-center">
-                <p>Creado por Rodrigo Emanuel Gomez/ Todos los derechos reservados</p>
+        </div>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-muted">&copy; Creado por RegWeb</span>
+                </div>
             </footer>
         </div>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
